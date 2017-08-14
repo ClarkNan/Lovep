@@ -163,7 +163,7 @@ i {
 }
 #gotop {
 	position: fixed;
-	right: 48.5%;
+	right: 20%;
 	bottom: .5px;
 	cursor: pointer;
     z-index: 1000;
@@ -182,5 +182,10 @@ i {
 	}
 	.joinfont{
 		text-align: center;
+	}
+}
+@media screen and (min-width: 300px) and (max-width: 375px) {
+	.twostyle{
+		padding:95px 0 0 0;
 	}
 }
