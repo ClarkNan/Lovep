@@ -162,6 +162,7 @@ i {
     z-index: 1000;
 }
 #gotop {
+	display:none;
 	position: fixed;
 	right: 20px;
 	bottom: .5px;
