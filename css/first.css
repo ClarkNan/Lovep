@@ -163,7 +163,7 @@ i {
 }
 #gotop {
 	position: fixed;
-	right: 50%;
+	right: 45%;
 	bottom: .5px;
 	cursor: pointer;
     z-index: 1000;
