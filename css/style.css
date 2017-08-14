@@ -1,0 +1,43 @@
+#wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center
+}
+#wrapper img {
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: -4px;
+}
+#wrapper img:hover {
+	opacity: .8;
+	box-shadow: black .2em .2em .2em;
+}
+
+
+.one-third {
+	width: 29%;
+	display: inline-block;
+	margin: 5px;
+}
+
+@media screen and (max-width: 768px){
+	.one-third {
+		width: 40%;
+		margin: 1%;
+	}
+}
+@media screen and (max-width: 480px){
+	.container {
+		margin: 0px;
+		padding: 0px;
+	}
+	.one-third {
+		width: 98%;
+		/*margin: 2%;*/
+	}
+	#wrapper img:hover {
+		box-shadow: black .1em .1em .1em;
+	}
+}
